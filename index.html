@@ -14,9 +14,9 @@
   <meta name="twitter:card" content="summary">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { background: #ec3013; display: flex; align-items: center; justify-content: center; min-height: 100vh; font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
-    #__bundler_loading { position: fixed; bottom: 20px; right: 20px; font: 13px/1.4 -apple-system, BlinkMacSystemFont, sans-serif; color: #666; background: #fff; padding: 8px 14px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.12); z-index: 10000; }
-    #__bundler_thumbnail { position: fixed; inset: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: #ec3013; z-index: 9999; }
+    body { background: #f3f2f2; display: flex; align-items: center; justify-content: center; min-height: 100vh; font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+    #__bundler_loading { position: fixed; bottom: 32px; left: 0; right: 0; text-align: center; font: 13px/1.4 -apple-system, BlinkMacSystemFont, sans-serif; letter-spacing: .08em; text-transform: uppercase; color: #666; background: none; padding: 0; z-index: 10000; }
+    #__bundler_thumbnail { position: fixed; inset: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 8px; background: #f3f2f2; color: #201e1d; font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; z-index: 9999; }
     #__bundler_thumbnail svg { width: 100%; height: 100%; object-fit: contain; }
     #__bundler_placeholder { color: #999; font-size: 14px; }
   </style>
@@ -28,8 +28,8 @@
   </noscript>
 </head>
 <body>
-  <div id="__bundler_thumbnail"><svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#f3f2f2" stroke-width="22"><path d="M600 220 840 340 600 460 360 340Z"></path><path d="M360 340V520L600 640 840 520V340"></path><path d="M600 460V640"></path></g></svg></div>
-  <div id="__bundler_loading">Unpacking...</div>
+  <div id="__bundler_thumbnail"><span style="font-size:clamp(32px,6vw,64px);font-weight:800;letter-spacing:-.03em;">Hamza Khan</span><span style="font-size:clamp(13px,1.6vw,17px);font-weight:600;color:#c4260e;">Senior Backend Engineer, Architect &amp; Tech Lead</span></div>
+  <div id="__bundler_loading">Loading…</div>
 
   <script>
     
